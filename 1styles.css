@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+/* Header */
+.hero {
+    background: linear-gradient(to right, #000428, #004e92);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.lead {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Sections */
+.card {
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+h2 {
+    color: #004e92;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+/* Lists */
+.list, .cars {
+    padding-left: 20px;
+}
+
+.list li, .cars li {
+    padding: 8px 0;
+}
+
+/* Car grid */
+.cars {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    list-style: none;
+    padding: 0;
+}
+
+.cars li {
+    background: #eef2f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Logos */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flex-container img {
+    width: 120px;
+    height: auto;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    background: #004e92;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    margin-top: 50px;
+}
+
+/* Car grid container */
+.car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+    padding: 40px 20px;
+}
+
+.car {
+    background: #f1f4f9;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.car:hover {
+    transform: scale(1.05);
+}
+
+.car img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.car h4 {
+    padding: 15px;
+    margin: 0;
+    color: #004e92;
+}
+.price {
+    color: #28a745;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+/* Navbar */
+.navbar {
+    background: #004e92;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#darkToggle {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Buy Button */
+.buy-btn {
+    background: #004e92;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background: #003366;
+}
+
+/* Contact form (consolidated) */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f4f6f9;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    background-color: #a7f9ff;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contact-form button {
+    background: #004e92;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #003366;
+}
+
+/* Dark Mode */
+.dark {
+    background: #121212;
+    color: white;
+}
+
+.dark .card {
+    background: #1f1f1f;
+}
+
+.dark .navbar {
+    background: black;
+}
+
+.dark .car {
+    background: #222;
+}
+.dark .contact-form {
+    background: #1e1e1e;
+}
+
+.dark .contact-form input,
+.dark .contact-form textarea {
+    background: #2b2b2b;
+    color: white;
+    border: 1px solid #555;
+}.dark-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #004e92;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.dark-btn:hover {
+    background: #003366;
+}
