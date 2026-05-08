@@ -5,6 +5,34 @@ body {
     color: #333;
 }
 
+/* Hidden utility class */
+.hidden {
+    display: none !important;
+}
+
+/* Logout button in header */
+.logout-header {
+    background: #004e92;
+    padding: 15px 40px;
+    text-align: right;
+}
+
+.logout-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.logout-btn:hover {
+    background: #c0392b;
+}
+
 /* Header */
 .hero {
     background: linear-gradient(to right, #000428, #004e92);
