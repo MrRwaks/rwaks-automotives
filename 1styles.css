@@ -163,7 +163,7 @@ footer {
     color: #a80404;
 }
 .price {
-    color: #28a745;
+    color: #d40e00;
     font-size: 18px;
     font-weight: bold;
     padding-bottom: 15px;
@@ -201,7 +201,7 @@ footer {
 
 /* Buy Button */
 .buy-btn {
-    background: #004e92;
+    background: #ce0000;
     color: white;
     border: none;
     padding: 10px;
