@@ -34,6 +34,11 @@ body {
 }
 
 /* Header */
+.hero img{
+    width: 150px;
+    height: auto;
+    margin-top: 20px;   
+}
 .hero {
     background: linear-gradient(to right, #000428, #004e92);
     color: white;
@@ -298,6 +303,7 @@ footer {
     width: 100%;
     max-width: 400px;
     padding: 20px;
+    background-color: #155724;
 }
 
 .login-box {
@@ -404,8 +410,7 @@ footer {
 }
 
 .page-box {
-    background: white;
-    border-radius: 10px;
+    background: white;   border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     padding: 40px;
     text-align: center;
