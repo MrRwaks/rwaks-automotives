@@ -1,7 +1,7 @@
 // Stored credentials in a JavaScript object
 const users = {
     username: 'ethan R',
-    password: 'rwakinang4',
+    password: 'password123',
 }
 
 // Handle login form submission on index.html
