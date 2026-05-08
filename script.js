@@ -38,3 +38,26 @@ if (logoutBtn) {
         window.location.href = 'index.html';
     });
 }
+
+//handle form submission on page.html
+const contactForm = document.getElementById('contactForm');
+if (contactForm) {
+    const nameInput = document.getElementById('name');
+    const emailInput = document.getElementById('email');
+    const messageInput = document.getElementById('message');
+    const formMessageDiv = document.getElementById('formMessage');
+
+    contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Simple validation
+        if (nameInput.value && emailInput.value && messageInput.value) {
+            formMessageDiv.textContent = '✓ Message sent successfully!';
+            formMessageDiv.className = 'message success';
+            contactForm.reset();
+        } else {
+            formMessageDiv.textContent = '✗ Please fill in all fields.';
+            formMessageDiv.className = 'message error';
+        }
+    });
+}   
