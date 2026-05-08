@@ -36,7 +36,8 @@ body {
 /* Header */
 .hero img{
     margin-bottom: -10px;
-    width: 300px;
+    width: 620px;
+    max-width: 85%;
     height: auto;
     margin-top: 0px;   
 }
