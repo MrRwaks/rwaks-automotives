@@ -35,9 +35,10 @@ body {
 
 /* Header */
 .hero img{
+    margin-bottom: -10px;
     width: 300px;
     height: auto;
-    margin-top: 20px;   
+    margin-top: 0px;   
 }
 .hero {
     background: linear-gradient(to right, #000428, #004e92);
@@ -72,7 +73,7 @@ h2 {
 }
 
 h3 {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 /* Lists */
@@ -132,7 +133,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 25px;
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 40px 20px;
 }
 
@@ -390,7 +391,7 @@ footer {
 
 .message {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 12px;
     border-radius: 6px;
     min-height: 20px;
@@ -414,7 +415,7 @@ footer {
     text-align: center;
     color: #b0b0b0;
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .hint strong {
