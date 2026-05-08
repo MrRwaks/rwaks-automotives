@@ -222,12 +222,13 @@ footer {
     gap: 15px;
     max-width: 600px;
     margin: 0 auto;
-    background: #f4f6f9;
+    background: linear-gradient(135deg, #8b0000 0%, #b71c1c 100%);
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    background-color: #a7f9ff;
+    box-shadow: 0 10px 25px rgba(139, 0, 0, 0.25);
+    color: #fff;
 }
+
 
 .contact-form input,
 .contact-form textarea {
@@ -311,14 +312,15 @@ footer {
 }
 
 .login-box {
-    background: #1a1a1a;
-    border: 2px solid #004e92;
+    background: linear-gradient(135deg, #8b0000 0%, #b71c1c 100%);
+    border: 2px solid #610000;
     border-radius: 12px;
-    box-shadow: 0 15px 35px rgba(0, 78, 146, 0.25);
+    box-shadow: 0 15px 35px rgba(139, 0, 0, 0.25);
     padding: 40px;
     max-width: 380px;
     width: 100%;
 }
+
 
 .login-box h1 {
     text-align: center;
@@ -450,7 +452,7 @@ footer {
 
 .logout-btn {
     padding: 10px 30px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #004e92;
     color: white;
     border: none;
     border-radius: 5px;
